@@ -1,0 +1,32 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flame: ^1.2.3 # Asegúrate de usar la versión actual
+  shared_preferences: ^2.0.9 # Asegúrate de tener la última versión
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - build/flutter_assets/snake_head.png  # Imagen de la cabeza de la serpiente
+    - build/flutter_assets/fruit.png       # Imagen de la fruta
+    - build/flutter_assets/oval.png        # Imagen del cuerpo
+    - build/flutter_assets/grass2.avif     # Cambiar imagen de fondo
+    - build/flutter_assets/grass.webp      # Imagen de fondo inicial
+
+
+
